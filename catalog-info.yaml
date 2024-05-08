@@ -1,0 +1,21 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: manage-cckpit.parasol-org
+  description: This project install Cockpit on RHEL servers
+  tags:
+    - ansible
+    - playbook
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: parasol-dev/rhel-monitoring
+  links:
+    - url: https://devspaces.apps.y1a9e1j9r7y1i8l.cbm5.p1.openshiftapps.com#https://github.com/parasol-dev/rhel-monitoring
+      title: Open in Ansible development workspaces
+      icon: web
+spec:
+  type: playbook-project
+  system: system:default/linux-systems
+  lifecycle: production
+  owner: user:default/craig-br
