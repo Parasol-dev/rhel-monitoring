@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: manage-cckpit.parasol-org
+  name: manage-cockpit.parasol-org
   description: This project install Cockpit on RHEL servers
   tags:
     - ansible
